@@ -1,0 +1,60 @@
+@font-face {
+    font-family: mongo;
+    src: url(fotos/more-sugar.regular.ttf);
+ }
+
+* {
+    height: 100%;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: url(fotos/Neonina.jpg);
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;  
+}
+
+.risco {
+    margin: auto;
+    margin-left: 225px;
+    margin-bottom: 20px;
+    width: 846px;
+    color: #d14ab7;
+    text-shadow: #d14ab7 0px 0px 10px;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: mongo;
+    height: 50px;
+    -webkit-text-stroke-width: 1px; /* largura da borda */
+    -webkit-text-stroke-color: #ffffff; /* cor da borda */
+}
+
+.nav1 {
+    margin: 0;
+    height: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;   
+}
+
+.nav1 a {
+    margin: 0;
+    height: 40px;
+    color: #fff;
+    text-shadow: #d14ab7 5px 5px 0px;
+    text-decoration: none;
+    font-family: mongo;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.nav1 a:hover {
+    transition-duration: .7s;
+    text-shadow: #d14ab7 7px 7px 0px;
+}
